@@ -45,3 +45,25 @@
 	font-weight: bolder;
 	cursor: pointer;
 }
+
+/* seccion about */
+#about{
+	background: url('../img/fondo-about.jpg');
+	background-size: cover;
+	background-position: center;
+	padding: 50px 0;
+}
+
+.contenido{
+	color: white;
+	width: 40%;
+	margin: 0 auto;
+	padding: 30px 30px 100px 30px;
+}
+
+.contenido h1{
+	font-weight: bolder;
+	font-size: 5rem;
+	line-height: 5rem;
+	text-transform: uppercase;
+}
