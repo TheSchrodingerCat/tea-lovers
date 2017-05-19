@@ -67,3 +67,36 @@
 	line-height: 5rem;
 	text-transform: uppercase;
 }
+
+/* tipos de te */
+.te-diferentes{
+	color: white;
+	padding: 30px;
+	width: 60%;
+	margin: 0 auto;
+}
+
+.tipo-de-te{
+	border: 5px solid white;
+	margin: 30px 0;
+	padding: 20px;
+}
+
+.tipo-de-te h2{
+	font-size: 1.5rem;
+}
+
+/* disfruta */
+#disfruta{
+	background: url('../img/disfruta.jpg');
+	background-size: cover;
+	background-position: center;
+	padding: 50px 0;
+}
+
+/* footer */
+footer{
+	background-color: #3B3B3B;
+	padding: 20px 30px;
+	color: white;
+}
