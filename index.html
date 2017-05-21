@@ -19,28 +19,31 @@
 
 		<!-- seccion newsletter -->
 		<section class="color">
-			<h1>¿Te gusta el té?</h1>
+			<h1>¿TE GUSTA EL TÉ?</h1>
 
 			<!-- formulario -->
 			<div id="formulario">
-				<label for="nombre">Nombre:</label>
-				<input type="text" class="form" id="name"><br>
+				<label for="nombre">Nombre:</label><br>
+				<input type="text" class="form" id="name" placeholder="ej: Juan Perez"><br>
 
-				<label for="email">Email::</label>
-				<input type="text" class="form" id="email"><br>
+				<label for="email">Email:</label><br>
+				<input type="text" class="form" id="email" placeholder="ej: algo@correo.com"><br>
 
-				<label for="dir">Dirección:</label>
-				<input type="text" class="form" id="dir"><br>
+				<label for="dir">Dirección:</label><br>
+				<input type="text" class="form" id="dir" placeholder="ej: Radal 1404"><br>
 
-				<label for="seleccion">Té favorito:</label>
-				<select name="select" id="seleccion" class="form">
+				<label for="seleccion">Té favorito:</label><br>
+				<select name="select" id="seleccion" class="form-select">
 					<option value="Selecciona" class="opcion-0" selected>Selecciona tu té</option>
 					<option value="Negro" id="opcion-1">Negro</option>
 					<option value="Verde" id="opcion-2">Verde</option>
 					<option value="Rojo" id="opcion-3">Rojo</option>
 					<option value="Blanco" id="opcion-4">Blanco</option>
 					<option value="Oolong" id="opcion-5">Oolong</option>
-				</select>
+				</select><br>
+
+              	<input type="checkbox" value="remember-me">
+              	<span>Quiero recibir muestras gratis</span>
 
 			</div>
 			<div class="newsletter">
@@ -99,5 +102,7 @@
 		<footer>
 			<p>Té encanto: Av. Italia 1317, Providencia</p>
 		</footer>
+
+		<script src="assets/js/main.js"></script>
 	</body>
 </html>

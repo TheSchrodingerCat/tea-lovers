@@ -32,7 +32,7 @@
 /* newsletter */
 .newsletter{
 	text-align: center;
-	padding: 50px;
+	padding: 30px 50px 50px 50px;
 }
 
 .newsletter button{
@@ -66,6 +66,33 @@
 	font-size: 5rem;
 	line-height: 5rem;
 	text-transform: uppercase;
+}
+
+.color h1{
+	padding: 3% 0;
+	text-align: center;
+	color: white;
+	font-style: bold;
+	font-size: 35px
+}
+
+#formulario{
+	text-align: center;
+	color: white;
+}
+
+.form{
+	width: 30%;
+	margin-bottom: 7px;
+	border-radius: 10px;
+	padding-left: 8px;
+}
+
+.form-select{
+	margin-top: 4px;
+	margin-bottom: 7px;
+	border-radius: 10px;
+	padding-left: 10px;
 }
 
 /* tipos de te */
